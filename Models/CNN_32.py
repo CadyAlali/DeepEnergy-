@@ -16,7 +16,7 @@ from tensorflow.keras.regularizers import l2
 
 
 # 2. Load dataset from the data folder
-file_path = os.path.join('data', 'qassim_energy_consumption_cleaned_3833.xlsx')
+file_path = os.path.join('data', 'DeepEnergy_Dataset.xlsx')
 data = pd.read_excel(file_path)
 
 
